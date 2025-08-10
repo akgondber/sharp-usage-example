@@ -1,0 +1,32 @@
+{
+  "name": "sharp-usage-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:dot": "vitest run",
+    "test:json": "vitest run --reporter=json --outputFile=./test/results/report.json",
+    "usage": "node usage.js",
+    "prettify": "prettier . --write",
+    "showfirstpixel": "node show-first-pixel.js",
+    "showfirstpixel2": "node show-first-pixel-2.js",
+    "usage2": "node usage2.js",
+    "check-files": "purposefile"
+  },
+  "keywords": [],
+  "author": "Rushan Alyautdinov",
+  "license": "MIT",
+  "packageManager": "pnpm@10.11.1",
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "purposefile": "^1.2.0",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "chroma-js": "^3.1.2",
+    "sharp": "^0.34.3"
+  },
+  "type": "module"
+}
