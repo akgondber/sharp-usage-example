@@ -5,14 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest run",
-    "test:dot": "vitest run",
+    "test:dot": "vitest run --reporter=dot",
     "test:json": "vitest run --reporter=json --outputFile=./test/results/report.json",
     "usage": "node usage.js",
     "prettify": "prettier . --write",
     "showfirstpixel": "node show-first-pixel.js",
     "showfirstpixel2": "node show-first-pixel-2.js",
     "usage2": "node usage2.js",
-    "check-files": "purposefile"
+    "check-files": "purposefile",
+    "pngusage": "node png-usage.js",
+    "pngshowfirstpixel": "node png-show-first-pixel-color.js"
   },
   "keywords": [],
   "author": "Rushan Alyautdinov",
